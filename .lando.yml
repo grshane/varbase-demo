@@ -1,0 +1,7 @@
+name: macchiato-varbase
+recipe: pantheon
+config:
+  framework: drupal8
+  env: dev
+  site: macchiato-varbase
+  id: 5365873f-2a17-4637-988d-f06360b1654e
