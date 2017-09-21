@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fcaeff11e1826d637f87acecbd6f16dd",
+    "content-hash": "2dfbac4a1d0935110d5f9113f8d7ad1c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3224,7 +3224,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.1",
-                    "datestamp": "1502200443",
+                    "datestamp": "1505808844",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3438,7 +3438,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/entity_clone"
             },
-            "time": "2016-04-14 07:57:21"
+            "time": "2016-04-14T07:57:21+00:00"
         },
         {
             "name": "drupal/entity_embed",
@@ -3618,7 +3618,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/entityqueue"
             },
-            "time": "2017-01-23 17:07:51"
+            "time": "2017-01-23T17:07:51+00:00"
         },
         {
             "name": "drupal/entityqueue_form_widget",
@@ -4512,7 +4512,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/l10n_client"
             },
-            "time": "2017-01-28 09:19:31"
+            "time": "2017-01-28T09:19:31+00:00"
         },
         {
             "name": "drupal/layout_plugin",
@@ -5580,7 +5580,7 @@
                 "source": "http://cgit.drupalcode.org/menu_position",
                 "issues": "https://www.drupal.org/project/issues/menu_position"
             },
-            "time": "2017-05-30 21:40:47"
+            "time": "2017-05-30T21:40:47+00:00"
         },
         {
             "name": "drupal/metatag",
@@ -6069,7 +6069,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/paragraphs"
             },
-            "time": "2017-07-31 17:27:58"
+            "time": "2017-07-31T17:27:58+00:00"
         },
         {
             "name": "drupal/paragraphs_previewer",
@@ -8502,6 +8502,59 @@
                 "source": "http://cgit.drupalcode.org/vmi"
             },
             "time": "2017-07-08 16:21:46"
+        },
+        {
+            "name": "drupal/we_megamenu",
+            "version": "1.0.0-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/we_megamenu",
+                "reference": "8.x-1.0-rc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/we_megamenu-8.x-1.0-rc1.zip",
+                "reference": "8.x-1.0-rc1",
+                "shasum": "5f2abf2b82662df16bda5193a740c1b4f1f33b60"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-rc1",
+                    "datestamp": "1503399545",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Hai Nguyen Ngoc (HaiNN)",
+                    "homepage": "https://www.drupal.org/u/hainn",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "WeebPal",
+                    "homepage": "https://www.drupal.org/user/1861072"
+                }
+            ],
+            "description": "This powerful Drupal module helps you create custom menu, video and Drupal Blocks.",
+            "homepage": "https://www.drupal.org/project/we_megamenu",
+            "support": {
+                "source": "http://cgit.drupalcode.org/we_megamenu",
+                "issues": "https://www.drupal.org/project/issues/we_megamenu"
+            }
         },
         {
             "name": "drupal/webform",
@@ -11553,7 +11606,8 @@
         "drupal/libraries": 20,
         "drupal/google_analytics_reports": 20,
         "drupal/login_destination": 20,
-        "drupal/total_control": 20
+        "drupal/total_control": 20,
+        "drupal/we_megamenu": 5
     },
     "prefer-stable": true,
     "prefer-lowest": false,

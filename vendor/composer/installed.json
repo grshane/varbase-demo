@@ -10594,6 +10594,305 @@
         "description": "A robust cross-platform utility for normalizing, comparing and modifying file paths."
     },
     {
+        "name": "drupal/entity_clone",
+        "version": "dev-1.x",
+        "version_normalized": "dev-1.x",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/entity_clone",
+            "reference": "9265e359bd31bda693dac9ad84ad52fe63531488"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "time": "2016-04-14T07:57:21+00:00",
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.x-dev",
+                "datestamp": "1460620739",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Project has not opted into security advisory coverage!"
+                }
+            },
+            "patches_applied": {
+                "Issue #2770687: Wrong redirection of page for entity clone module": "https://www.drupal.org/files/issues/2770687_wrong_redirection_for_entity_9.patch",
+                "Issue #2800203: Event dispatcher for clone events": "https://www.drupal.org/files/issues/entity_clone-event_dispatcher-2800203-5.patch",
+                "Issue #2706639: Support for cloning nodes that have another entities attached": "https://www.drupal.org/files/issues/entity_clone-attached_entities-2706639-25.patch",
+                "Issue #2769823: Getting error after clicking on abort clone button": "https://www.drupal.org/files/issues/entity_clone-abort_clone_causes_fatal_error-2769823-4.patch"
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "vpeltot",
+                "homepage": "https://www.drupal.org/user/1361586"
+            }
+        ],
+        "description": "Add a clone action for all entities",
+        "homepage": "https://www.drupal.org/project/entity_clone",
+        "support": {
+            "source": "http://cgit.drupalcode.org/entity_clone"
+        }
+    },
+    {
+        "name": "drupal/entityqueue",
+        "version": "dev-1.x",
+        "version_normalized": "dev-1.x",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/entityqueue",
+            "reference": "e17c172fe1bfdab2194b06b848cad92bc6824e49"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "time": "2017-01-23T17:07:51+00:00",
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-alpha6+8-dev",
+                "datestamp": "1502361244",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Dev releases are not covered by Drupal security advisories."
+                }
+            },
+            "patches_applied": {
+                "Issue #2145441: Option to create Entityqueue tab on Entity pages.": "https://www.drupal.org/files/issues/entityqueue-add_entityqueue_tab-2145441-22.patch"
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "amateescu",
+                "homepage": "https://www.drupal.org/user/729614"
+            },
+            {
+                "name": "jojonaloha",
+                "homepage": "https://www.drupal.org/user/1579186"
+            },
+            {
+                "name": "tim.plunkett",
+                "homepage": "https://www.drupal.org/user/241634"
+            }
+        ],
+        "description": "Allows users to collect entities in arbitrarily ordered lists.",
+        "homepage": "https://www.drupal.org/project/entityqueue",
+        "support": {
+            "source": "http://cgit.drupalcode.org/entityqueue"
+        }
+    },
+    {
+        "name": "drupal/l10n_client",
+        "version": "dev-1.x",
+        "version_normalized": "dev-1.x",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/l10n_client",
+            "reference": "9bf8d597732870bdca301512c71b6e5d74d48db2"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "require-dev": {
+            "drupal/l10n_client_contributor": "*",
+            "drupal/xmlrpc": "*"
+        },
+        "time": "2017-01-28T09:19:31+00:00",
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-alpha1+14-dev",
+                "datestamp": "1486153555",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Dev releases are not covered by Drupal security advisories."
+                }
+            },
+            "patches_applied": {
+                "Issue #2867460: Incompatible with this version of Drupal core 8.3.0": "https://www.drupal.org/files/issues/2867460-2.patch",
+                "Issue #2872668: User error: 0 is an invalid render array key": "https://www.drupal.org/files/issues/l10n_client-hook_toolbar-fix-2872668-3.patch"
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Gábor Hojtsy",
+                "homepage": "https://www.drupal.org/user/4166"
+            },
+            {
+                "name": "Jose Reyero",
+                "homepage": "https://www.drupal.org/user/4299"
+            },
+            {
+                "name": "SebCorbin",
+                "homepage": "https://www.drupal.org/user/412171"
+            },
+            {
+                "name": "yhahn",
+                "homepage": "https://www.drupal.org/user/264833"
+            }
+        ],
+        "homepage": "https://www.drupal.org/project/l10n_client",
+        "support": {
+            "source": "http://cgit.drupalcode.org/l10n_client"
+        }
+    },
+    {
+        "name": "drupal/menu_position",
+        "version": "dev-1.x",
+        "version_normalized": "dev-1.x",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/menu_position",
+            "reference": "1e3a6778acc74a35174d297052ec44995d5e5137"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "time": "2017-05-30T21:40:47+00:00",
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.x-dev",
+                "datestamp": "1496180643",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Dev releases are not covered by Drupal security advisories."
+                }
+            },
+            "patches_applied": {
+                "Issue #2883131: Call to undefined method when creating a rule": "https://www.drupal.org/files/issues/2883131-19-menu_position_save_new_rules_and_config.patch"
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "BarisW",
+                "homepage": "https://www.drupal.org/user/107229"
+            },
+            {
+                "name": "JohnAlbin",
+                "homepage": "https://www.drupal.org/user/32095"
+            },
+            {
+                "name": "lbainbridge",
+                "homepage": "https://www.drupal.org/user/2406996"
+            }
+        ],
+        "description": "This module allows for the creation of rules that will dynamically add the current page into the menu system at the requested spots.",
+        "homepage": "https://www.drupal.org/project/menu_position",
+        "support": {
+            "source": "http://cgit.drupalcode.org/menu_position",
+            "issues": "https://www.drupal.org/project/issues/menu_position"
+        }
+    },
+    {
+        "name": "drupal/paragraphs",
+        "version": "dev-1.x",
+        "version_normalized": "dev-1.x",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/paragraphs",
+            "reference": "e907f6d57c44e81d65e8c1e7247dccd0eae92258"
+        },
+        "require": {
+            "drupal/core": "~8",
+            "drupal/entity_reference_revisions": "~1.3"
+        },
+        "require-dev": {
+            "drupal/block_field": "~1.0",
+            "drupal/diff": "~1.0",
+            "drupal/field_group": "~1.0",
+            "drupal/inline_entity_form": "~1.0",
+            "drupal/replicate": "~1.0",
+            "drupal/search_api": "*",
+            "drupal/search_api_db": "*"
+        },
+        "time": "2017-07-31T17:27:58+00:00",
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.1+84-dev",
+                "datestamp": "1504364043",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Dev releases are not covered by Drupal security advisories."
+                }
+            },
+            "patches_applied": {
+                "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/meta_support-2461695-206.patch",
+                "Issue #2868155: Add new hooks to allow easier editing of paragraph forms": "https://www.drupal.org/files/issues/2868155-8.patch",
+                "Issue #2877927: Show add widget between paragraphs on hover": "https://www.drupal.org/files/issues/show_add_widget-2877927-25.patch"
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Berdir",
+                "homepage": "https://www.drupal.org/user/214652"
+            },
+            {
+                "name": "Frans",
+                "homepage": "https://www.drupal.org/user/514222"
+            },
+            {
+                "name": "Primsi",
+                "homepage": "https://www.drupal.org/user/282629"
+            },
+            {
+                "name": "jeroen.b",
+                "homepage": "https://www.drupal.org/user/1853532"
+            },
+            {
+                "name": "miro_dietiker",
+                "homepage": "https://www.drupal.org/user/227761"
+            }
+        ],
+        "description": "Enables the creation of Paragraphs entities.",
+        "homepage": "https://www.drupal.org/project/paragraphs",
+        "support": {
+            "source": "http://cgit.drupalcode.org/paragraphs"
+        }
+    },
+    {
         "name": "drupal/core",
         "version": "8.3.7",
         "version_normalized": "8.3.7.0",
@@ -10759,8 +11058,10 @@
         "type": "drupal-core",
         "extra": {
             "patches_applied": {
+                "Issue #1356276: Allow profiles to provide a base_parent profile and load them in the correct order": "https://www.drupal.org/files/issues/1356276-360.patch",
                 "Issue #2720101 Label (Title) not set for Views block (exposed filters in Block)": "https://www.drupal.org/files/issues/2720101-30.patch",
-                "Issue #2599228: Programmatically created translatable content type returns SQL error on content creation": "https://www.drupal.org/files/issues/2599228-31.patch"
+                "Issue #2599228: Programmatically created translatable content type returns SQL error on content creation": "https://www.drupal.org/files/issues/2599228-31.patch",
+                "Issue #2893892: Fixed Warning Invalid argument supplied for foreach() in Drupal": "https://www.drupal.org/files/issues/patch_empty_fix.patch"
             }
         },
         "installation-source": "dist",
@@ -10785,6 +11086,129 @@
             "GPL-2.0+"
         ],
         "description": "Drupal is an open source content management platform powering millions of websites and applications."
+    },
+    {
+        "name": "drupal/we_megamenu",
+        "version": "1.0.0-rc1",
+        "version_normalized": "1.0.0.0-RC1",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/we_megamenu",
+            "reference": "8.x-1.0-rc1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/we_megamenu-8.x-1.0-rc1.zip",
+            "reference": "8.x-1.0-rc1",
+            "shasum": "5f2abf2b82662df16bda5193a740c1b4f1f33b60"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-rc1",
+                "datestamp": "1503399545",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Project has not opted into security advisory coverage!"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Hai Nguyen Ngoc (HaiNN)",
+                "homepage": "https://www.drupal.org/u/hainn",
+                "role": "Maintainer"
+            },
+            {
+                "name": "WeebPal",
+                "homepage": "https://www.drupal.org/user/1861072"
+            }
+        ],
+        "description": "This powerful Drupal module helps you create custom menu, video and Drupal Blocks.",
+        "homepage": "https://www.drupal.org/project/we_megamenu",
+        "support": {
+            "source": "http://cgit.drupalcode.org/we_megamenu",
+            "issues": "https://www.drupal.org/project/issues/we_megamenu"
+        }
+    },
+    {
+        "name": "drupal/google_analytics_reports",
+        "version": "dev-3.x",
+        "version_normalized": "dev-3.x",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/google_analytics_reports",
+            "reference": "2b6bb8efbc7f61ce3c1225638075aa6037b8db44"
+        },
+        "require": {
+            "drupal/core": "~8.0",
+            "drupal/google_analytics_reports_api": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-3.x": "3.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-3.0-beta1+1-dev",
+                "datestamp": "1469345639",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Dev releases are not covered by Drupal security advisories."
+                }
+            },
+            "patches_applied": {
+                "Issue #2850463: Error when saving either google_analytics_reports view": "https://www.drupal.org/files/issues/error_when_saving-2850463-2.patch",
+                "Issue #2860399: Warning: htmlspecialchars() expects parameter 1 to be string": "https://www.drupal.org/files/issues/Fix_message-2860399-5.patch"
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Plazik",
+                "homepage": "https://www.drupal.org/user/982724"
+            },
+            {
+                "name": "grendzy",
+                "homepage": "https://www.drupal.org/user/96647"
+            },
+            {
+                "name": "jantoine",
+                "homepage": "https://www.drupal.org/user/192192"
+            },
+            {
+                "name": "jkitching",
+                "homepage": "https://www.drupal.org/user/159067"
+            },
+            {
+                "name": "jojonaloha",
+                "homepage": "https://www.drupal.org/user/1579186"
+            },
+            {
+                "name": "raspberryman",
+                "homepage": "https://www.drupal.org/user/71464"
+            }
+        ],
+        "description": "Display statistics from Google Analytics using Views.",
+        "homepage": "https://www.drupal.org/project/google_analytics_reports",
+        "support": {
+            "source": "http://cgit.drupalcode.org/google_analytics_reports"
+        }
     },
     {
         "name": "drupal/adminimal_theme",
@@ -11136,7 +11560,7 @@
             },
             "drupal": {
                 "version": "8.x-1.1",
-                "datestamp": "1502200443",
+                "datestamp": "1505808844",
                 "security-coverage": {
                     "status": "covered",
                     "message": "Covered by Drupal's security advisory policy"
@@ -11191,299 +11615,6 @@
             "source": "http://cgit.drupalcode.org/entity_browser",
             "issues": "http://drupal.org/project/issues/entity_browser",
             "irc": "irc://irc.freenode.org/drupal-contribute"
-        }
-    },
-    {
-        "name": "drupal/entity_clone",
-        "version": "dev-1.x",
-        "version_normalized": "dev-1.x",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/entity_clone",
-            "reference": "9265e359bd31bda693dac9ad84ad52fe63531488"
-        },
-        "require": {
-            "drupal/core": "~8.0"
-        },
-        "time": "2016-04-14T07:57:21+00:00",
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-1.x": "1.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-1.x-dev",
-                "datestamp": "1460620739",
-                "security-coverage": {
-                    "status": "not-covered",
-                    "message": "Project has not opted into security advisory coverage!"
-                }
-            },
-            "patches_applied": {
-                "Issue #2770687: Wrong redirection of page for entity clone module": "https://www.drupal.org/files/issues/2770687_wrong_redirection_for_entity_9.patch",
-                "Issue #2800203: Event dispatcher for clone events": "https://www.drupal.org/files/issues/entity_clone-event_dispatcher-2800203-5.patch",
-                "Issue #2706639: Support for cloning nodes that have another entities attached": "https://www.drupal.org/files/issues/entity_clone-attached_entities-2706639-25.patch",
-                "Issue #2769823: Getting error after clicking on abort clone button": "https://www.drupal.org/files/issues/entity_clone-abort_clone_causes_fatal_error-2769823-4.patch"
-            }
-        },
-        "installation-source": "source",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "vpeltot",
-                "homepage": "https://www.drupal.org/user/1361586"
-            }
-        ],
-        "description": "Add a clone action for all entities",
-        "homepage": "https://www.drupal.org/project/entity_clone",
-        "support": {
-            "source": "http://cgit.drupalcode.org/entity_clone"
-        }
-    },
-    {
-        "name": "drupal/entityqueue",
-        "version": "dev-1.x",
-        "version_normalized": "dev-1.x",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/entityqueue",
-            "reference": "e17c172fe1bfdab2194b06b848cad92bc6824e49"
-        },
-        "require": {
-            "drupal/core": "~8.0"
-        },
-        "time": "2017-01-23T17:07:51+00:00",
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-1.x": "1.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-1.0-alpha6+8-dev",
-                "datestamp": "1502361244",
-                "security-coverage": {
-                    "status": "not-covered",
-                    "message": "Dev releases are not covered by Drupal security advisories."
-                }
-            },
-            "patches_applied": {
-                "Issue #2145441: Option to create Entityqueue tab on Entity pages.": "https://www.drupal.org/files/issues/entityqueue-add_entityqueue_tab-2145441-22.patch"
-            }
-        },
-        "installation-source": "source",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "amateescu",
-                "homepage": "https://www.drupal.org/user/729614"
-            },
-            {
-                "name": "jojonaloha",
-                "homepage": "https://www.drupal.org/user/1579186"
-            },
-            {
-                "name": "tim.plunkett",
-                "homepage": "https://www.drupal.org/user/241634"
-            }
-        ],
-        "description": "Allows users to collect entities in arbitrarily ordered lists.",
-        "homepage": "https://www.drupal.org/project/entityqueue",
-        "support": {
-            "source": "http://cgit.drupalcode.org/entityqueue"
-        }
-    },
-    {
-        "name": "drupal/google_analytics_reports",
-        "version": "dev-3.x",
-        "version_normalized": "dev-3.x",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/google_analytics_reports",
-            "reference": "2b6bb8efbc7f61ce3c1225638075aa6037b8db44"
-        },
-        "require": {
-            "drupal/core": "~8.0",
-            "drupal/google_analytics_reports_api": "*"
-        },
-        "time": "2016-07-24T07:33:18+00:00",
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-3.x": "3.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-3.0-beta1+1-dev",
-                "datestamp": "1469345639",
-                "security-coverage": {
-                    "status": "not-covered",
-                    "message": "Dev releases are not covered by Drupal security advisories."
-                }
-            },
-            "patches_applied": {
-                "Issue #2850463: Error when saving either google_analytics_reports view": "https://www.drupal.org/files/issues/error_when_saving-2850463-2.patch",
-                "Issue #2860399: Warning: htmlspecialchars() expects parameter 1 to be string": "https://www.drupal.org/files/issues/Fix_message-2860399-5.patch"
-            }
-        },
-        "installation-source": "source",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "Plazik",
-                "homepage": "https://www.drupal.org/user/982724"
-            },
-            {
-                "name": "grendzy",
-                "homepage": "https://www.drupal.org/user/96647"
-            },
-            {
-                "name": "jantoine",
-                "homepage": "https://www.drupal.org/user/192192"
-            },
-            {
-                "name": "jkitching",
-                "homepage": "https://www.drupal.org/user/159067"
-            },
-            {
-                "name": "jojonaloha",
-                "homepage": "https://www.drupal.org/user/1579186"
-            },
-            {
-                "name": "raspberryman",
-                "homepage": "https://www.drupal.org/user/71464"
-            }
-        ],
-        "description": "Display statistics from Google Analytics using Views.",
-        "homepage": "https://www.drupal.org/project/google_analytics_reports",
-        "support": {
-            "source": "http://cgit.drupalcode.org/google_analytics_reports"
-        }
-    },
-    {
-        "name": "drupal/l10n_client",
-        "version": "dev-1.x",
-        "version_normalized": "dev-1.x",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/l10n_client",
-            "reference": "9bf8d597732870bdca301512c71b6e5d74d48db2"
-        },
-        "require": {
-            "drupal/core": "~8.0"
-        },
-        "require-dev": {
-            "drupal/l10n_client_contributor": "*",
-            "drupal/xmlrpc": "*"
-        },
-        "time": "2017-01-28T09:19:31+00:00",
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-1.x": "1.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-1.0-alpha1+14-dev",
-                "datestamp": "1486153555",
-                "security-coverage": {
-                    "status": "not-covered",
-                    "message": "Dev releases are not covered by Drupal security advisories."
-                }
-            },
-            "patches_applied": {
-                "Issue #2867460: Incompatible with this version of Drupal core 8.3.0": "https://www.drupal.org/files/issues/2867460-2.patch",
-                "Issue #2872668: User error: 0 is an invalid render array key": "https://www.drupal.org/files/issues/l10n_client-hook_toolbar-fix-2872668-3.patch"
-            }
-        },
-        "installation-source": "source",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "Gábor Hojtsy",
-                "homepage": "https://www.drupal.org/user/4166"
-            },
-            {
-                "name": "Jose Reyero",
-                "homepage": "https://www.drupal.org/user/4299"
-            },
-            {
-                "name": "SebCorbin",
-                "homepage": "https://www.drupal.org/user/412171"
-            },
-            {
-                "name": "yhahn",
-                "homepage": "https://www.drupal.org/user/264833"
-            }
-        ],
-        "homepage": "https://www.drupal.org/project/l10n_client",
-        "support": {
-            "source": "http://cgit.drupalcode.org/l10n_client"
-        }
-    },
-    {
-        "name": "drupal/menu_position",
-        "version": "dev-1.x",
-        "version_normalized": "dev-1.x",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/menu_position",
-            "reference": "1e3a6778acc74a35174d297052ec44995d5e5137"
-        },
-        "require": {
-            "drupal/core": "~8.0"
-        },
-        "time": "2017-05-30T21:40:47+00:00",
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-1.x": "1.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-1.x-dev",
-                "datestamp": "1496180643",
-                "security-coverage": {
-                    "status": "not-covered",
-                    "message": "Dev releases are not covered by Drupal security advisories."
-                }
-            },
-            "patches_applied": {
-                "Issue #2883131: Call to undefined method when creating a rule": "https://www.drupal.org/files/issues/2883131-19-menu_position_save_new_rules_and_config.patch"
-            }
-        },
-        "installation-source": "source",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "BarisW",
-                "homepage": "https://www.drupal.org/user/107229"
-            },
-            {
-                "name": "JohnAlbin",
-                "homepage": "https://www.drupal.org/user/32095"
-            },
-            {
-                "name": "lbainbridge",
-                "homepage": "https://www.drupal.org/user/2406996"
-            }
-        ],
-        "description": "This module allows for the creation of rules that will dynamically add the current page into the menu system at the requested spots.",
-        "homepage": "https://www.drupal.org/project/menu_position",
-        "support": {
-            "source": "http://cgit.drupalcode.org/menu_position",
-            "issues": "https://www.drupal.org/project/issues/menu_position"
         }
     },
     {
@@ -11552,81 +11683,6 @@
             "source": "https://git.drupal.org/project/page_manager.git",
             "issues": "https://www.drupal.org/project/issues/page_manager",
             "irc": "irc://irc.freenode.org/drupal-contribute"
-        }
-    },
-    {
-        "name": "drupal/paragraphs",
-        "version": "dev-1.x",
-        "version_normalized": "dev-1.x",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupal.org/project/paragraphs",
-            "reference": "e907f6d57c44e81d65e8c1e7247dccd0eae92258"
-        },
-        "require": {
-            "drupal/core": "~8",
-            "drupal/entity_reference_revisions": "~1.3"
-        },
-        "require-dev": {
-            "drupal/block_field": "~1.0",
-            "drupal/diff": "~1.0",
-            "drupal/field_group": "~1.0",
-            "drupal/inline_entity_form": "~1.0",
-            "drupal/replicate": "~1.0",
-            "drupal/search_api": "*",
-            "drupal/search_api_db": "*"
-        },
-        "time": "2017-07-31T17:27:58+00:00",
-        "type": "drupal-module",
-        "extra": {
-            "branch-alias": {
-                "dev-1.x": "1.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-1.1+84-dev",
-                "datestamp": "1504364043",
-                "security-coverage": {
-                    "status": "not-covered",
-                    "message": "Dev releases are not covered by Drupal security advisories."
-                }
-            },
-            "patches_applied": {
-                "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/meta_support-2461695-206.patch",
-                "Issue #2868155: Add new hooks to allow easier editing of paragraph forms": "https://www.drupal.org/files/issues/2868155-8.patch",
-                "Issue #2877927: Show add widget between paragraphs on hover": "https://www.drupal.org/files/issues/show_add_widget-2877927-25.patch"
-            }
-        },
-        "installation-source": "source",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0"
-        ],
-        "authors": [
-            {
-                "name": "Berdir",
-                "homepage": "https://www.drupal.org/user/214652"
-            },
-            {
-                "name": "Frans",
-                "homepage": "https://www.drupal.org/user/514222"
-            },
-            {
-                "name": "Primsi",
-                "homepage": "https://www.drupal.org/user/282629"
-            },
-            {
-                "name": "jeroen.b",
-                "homepage": "https://www.drupal.org/user/1853532"
-            },
-            {
-                "name": "miro_dietiker",
-                "homepage": "https://www.drupal.org/user/227761"
-            }
-        ],
-        "description": "Enables the creation of Paragraphs entities.",
-        "homepage": "https://www.drupal.org/project/paragraphs",
-        "support": {
-            "source": "http://cgit.drupalcode.org/paragraphs"
         }
     },
     {
